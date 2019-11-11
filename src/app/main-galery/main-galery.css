@@ -1,0 +1,36 @@
+.album-wrapper {
+  height: 100%;
+  margin: 1em;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+
+.album {
+  width: 10em;
+  height: 10em;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5em;
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+.album:hover {
+  box-shadow: 0 0 1.4em #685959;
+  box-sizing: border-box;
+}
+
+.album__thumbnail {
+  width: 100px;
+  height: 100px;
+}
+
+.album__title {
+  margin-top: 0.5em;
+  text-overflow: ellipsis
+}
